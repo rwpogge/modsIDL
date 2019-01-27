@@ -19,12 +19,12 @@ have found works best for most Linux distributions and Mac OS/X computers. Curre
 however, the modsIDL code is only compatible with Python 2.7 (a Python 3 version
 will be hopefully released later in 2019):
 
- > [Anaconda](https://www.anaconda.com/).
+ > [Anaconda Python Distribution](https://www.anaconda.com/).
 
 The modsIDL programs are incorporated into the XIDL software developed by
 Jason X. Prochaska and Joe Hennawi and others:
 
- > [XIDL](https://github.com/profxj/xidl)
+ > [XIDL GitHub Repository](https://github.com/profxj/xidl)
 
 This makes use of the numerous tools that have already been tested by numerous 
 projects.  This version of modsIDL was developed using the SVN installation 
