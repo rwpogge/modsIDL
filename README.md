@@ -65,7 +65,7 @@ We and our funding agencies thank you.
 Dr. Kevin Croxall, the lead on the modsIDL project, was a postdoctoral research fellow at The Ohio State University
 Department of Astronomy from 2012 until 2016, supported by funds provided by NSF Grant AST-1108693 and by the David G. Price Postdoctoral Fellowship in Astronomical Instrumentation. Kevin left OSU and Astronomy in May 2016 and is making a career in data science. 
 
-Support for modsIDL will continue on an informal basis as we can find resources. In the meantime, MODS instrument PI Prof. Richard Pogge (pogge.1@osu.edu) will address any bugs or questions to Rick Pogge (pogge.1@osu.edu). 
+Support for modsIDL will continue on an informal basis as we can find resources. In the meantime, MODS instrument PI Prof. Richard Pogge (pogge.1@osu.edu) will address any bugs or questions. 
 
 ## Revision History
 
