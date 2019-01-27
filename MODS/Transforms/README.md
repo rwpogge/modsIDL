@@ -61,19 +61,20 @@ Polynomial:
                     + CY01*y   + CY11*x*y   + CY21*x^2*y
                     + CY02*y^2 + CY12*x*y^2 + CY03*y^3
 </pre>
-for a total of 6 linear and 20 polynomial coefficients.
+for a total of 6 linear and 20 polynomial coefficients.  The fitting is done
+using the IRAF geomap task.
 
 We then repeat this fitting procedure for a number of wavelengths convering the spectral range 
 of the MODS channel mode (e.g., MODS2 Red Grating).  Each wavelength line has a different set
 of linear and polynomial coordinate transformation coefficients.
 
-We then fit the ensemble of coefficients as polynomials in wavelength:
+We then fit this ensemble of coefficients as polynomials in wavelength, for example:
 <pre>
-   C(lambda) = C0 + C1*lambda + C2*lambda^2 + ... + Cn*lambda^n
+   CX00(lambda) = C0 + C1*lambda + C2*lambda^2 + ... + Cn*lambda^n
 </pre>
 where typically n=2 or n=3 is the most highest polynomial order that best fits the data.
 
-These together give a set of Sudoku Transforms of the form:
+These together give us a set of Sudoku Transforms of the form:
 <pre>
     X_ccd = X_ccd,lin(lambda,x,y) + X_ccd,pol(lambda,x,y0
     Y_ccd = Y_ccd,lin(lambda,x,y) + Y_ccd,pol(lambda,x,y0
