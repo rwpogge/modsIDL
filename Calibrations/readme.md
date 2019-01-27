@@ -7,7 +7,7 @@ These are the linelists and sky calibrations specific to MODS at LBT.
 
 ## Installation
 
-The files live in /full/path/to/xidl/Spec/LongSlit/calib/ in your xidl distribution.
+The files live in /full/path/to/xidl/Spec/Longslit/calib/ in your xidl distribution.
 
 copy the files here into the named folders ("linelists" and "sky".  All are binary-format .sav
 files used by the pipeline during regular reductions.
