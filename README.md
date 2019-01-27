@@ -16,6 +16,8 @@ Please download and read the user's manual on this repository for instructions o
 
 ## Installation
 
+See [INSTALL.md](INSTALL.md) for installation instructions.
+
 ## System Requirements
 
  * Linux (CentOS 5++, FC++, RHE9++), but note you need different 32- and 64-bit distributions unless you are prepared to recompile. 
