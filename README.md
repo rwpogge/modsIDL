@@ -57,19 +57,23 @@ If you publish MODS data reduced with the modsIDL pipeline, we ask that you add 
 
 A registered software DOI with zenodo.org will be forthcoming.
 
-modsIDL was developed for the MODS1 and MODS2 instruments at the Large Binocular Telescope Observatory.  The MODS were built
-with with major support provided by grants from the U.S. National Science Foundation's Division of Astronomical Sciences 
-Advanced Technologies and Instrumentation (AST-9987045), the NSF/NOAO TSIP Program, and matching funds provided by the Ohio 
-State University Office of Research and the Ohio Board of Regents. Additional support was provided by NSF Grant AST-1108693.
+modsIDL was developed for reducing data obtained with the MODS1 and MODS2 instruments at the Large Binocular Telescope
+Observatory.  The MODS were built with with major support provided by grants from the U.S. National Science Foundation's
+Division of Astronomical Sciences  Advanced Technologies and Instrumentation (AST-9987045), the NSF/NOAO TSIP Program,
+and matching funds provided by the Ohio State University Office of Research and the Ohio Board of Regents. Additional 
+support was provided by NSF Grant AST-1108693.
 
 We and our funding agencies thank you for properly acknowledging their support in your papers. 
 
 ## Author & History
 
 Dr. Kevin Croxall, the lead on the modsIDL project, was a postdoctoral research fellow at The Ohio State University
-Department of Astronomy from 2012 until 2016, supported by funds provided by NSF Grant AST-1108693 and by the David G. Price Postdoctoral Fellowship in Astronomical Instrumentation. Kevin left OSU and Astronomy in May 2016 and is making a career in data science. 
+Department of Astronomy from 2012 until 2016, supported by funds provided by NSF Grant AST-1108693 and by the David G. Price 
+Postdoctoral Fellowship in Astronomical Instrumentation. Kevin left OSU and Astronomy in May 2016 and is making a career in
+data science. 
 
-Support for modsIDL will continue on an informal basis as we can find resources. In the meantime, MODS instrument PI Prof. Richard Pogge (pogge.1@osu.edu) will address any bugs or questions. 
+Support for modsIDL will continue on an informal basis as we can find resources. In the meantime, MODS instrument PI 
+Prof. Richard Pogge (pogge.1@osu.edu) will address any bugs or questions as time permits. 
 
 ## Revision History
 
