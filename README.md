@@ -57,8 +57,12 @@ If you publish MODS data reduced with the modsIDL pipeline, we ask that you add 
 
 A registered software DOI with zenodo.org will be forthcoming.
 
-modsIDL was developed for the MODS1 and MODS2 instruments, which were built with with major support provided by grants from the U.S. National Science Foundation's Division of Astronomical Sciences Advanced Technologies and Instrumentation (AST-9987045), the NSF/NOAO TSIP Program, and matching funds provided by the Ohio State University Office of Research and the Ohio Board of Regents. Additional support was provided by NSF Grant AST-1108693.
-We and our funding agencies thank you. 
+modsIDL was developed for the MODS1 and MODS2 instruments at the Large Binocular Telescope Observatory.  The MODS were built
+with with major support provided by grants from the U.S. National Science Foundation's Division of Astronomical Sciences 
+Advanced Technologies and Instrumentation (AST-9987045), the NSF/NOAO TSIP Program, and matching funds provided by the Ohio 
+State University Office of Research and the Ohio Board of Regents. Additional support was provided by NSF Grant AST-1108693.
+
+We and our funding agencies thank you for properly acknowledging their support in your papers. 
 
 ## Author & History
 
