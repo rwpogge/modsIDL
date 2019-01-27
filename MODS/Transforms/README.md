@@ -70,7 +70,7 @@ of linear and polynomial coordinate transformation coefficients.
 
 We then fit this ensemble of coefficients as polynomials in wavelength, for example:
 <pre>
-   CX00(lambda) = C0 + C1*lambda + C2*lambda^2 + ... + Cn*lambda^n
+   CX00(lambda) = c0 + c1*lambda + c2*lambda^2 + ... + cn*lambda^n
 </pre>
 where typically n=2 or n=3 is the most highest polynomial order that best fits the data.
 
@@ -97,3 +97,12 @@ unmodified), but its simplicity allowed us greater latitude to break into the co
 on the Sudoku mask transforms that, in the end, made it very robust and quite a bit faster as the guesses for
 trace extraction and wavelength calibration were much closer to the mark on the first iteration, reducing the number of 
 subsequent iterations and time lost to runaway divergences.
+
+## Transform Scripts
+<pre>
+   blue_map.pro       - Blue Channel Grating mode Sudoku transforms
+   red_map.pro        - Red Channel Grating mode Sudoku transforms
+   blue_map_prism.pro - Blue Channel Prism mode Sudoku transforms
+   red_map_prism.pro  - Red Channel Prism mode Sudoku transforms
+</pre>
+Each script contains, hardcoded, the transform coefficients for each instrument instance (MODS1 and MODS2).
