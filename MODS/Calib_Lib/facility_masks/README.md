@@ -17,17 +17,19 @@ File Extensions:
    .gbr = Gerber RS-274X File
    .mms = MMS File (MODS Mask Specification File)
 </pre>
-See the MODS Manual for details of the facility long-slit
-specifications.
+See the MODS Manual for details of the facility long-slit specifications.
 
 ## Manifest:
 <pre>
-   ls5x60x0.3.mms  --  0.3-arcsec segmented long-slit mask
-   ls5x60x0.6.mms  --  0.6-arcsec segmented long-slit mask
-   ls5x60x0.8.mms  --  0.8-arcsec segmented long-slit mask
-   ls5x60x1.0.mms  --  1.0-arcsec segmented long-slit mask
-   ls5x60x1.2.mms  --  1.2-arcsec segmented long-slit mask
-   ls5x60x2.4.mms  --  2.4-arcsec segmented long-slit mask
-   ls60x5.mms      --  5-arcsec x 60-arcsec spectrophotometric wide slit mask
-   sudokuMask.mms  --  9x9 Sudoko pinhole mask (MOS x,y,lambda Calibration)
+   ls5x60x0.3.xyz  --  0.3-arcsec segmented long-slit mask
+   ls5x60x0.6.xyz  --  0.6-arcsec segmented long-slit mask
+   ls5x60x0.8.xyz  --  0.8-arcsec segmented long-slit mask
+   ls5x60x1.0.xyz  --  1.0-arcsec segmented long-slit mask
+   ls5x60x1.2.xyz  --  1.2-arcsec segmented long-slit mask
+   ls5x60x2.4.xyz  --  2.4-arcsec segmented long-slit mask
+   ls60x5.xyz      --  5-arcsec x 60-arcsec spectrophotometric wide slit mask
+   sudokuMask.xyz  --  9x9 Sudoko pinhole mask (MOS x,y,lambda Calibration)
+   pinholeSlit.xyz --  Linear pinhole slit
+   sieveMask.xyz   --  Pinhole Sieve Mask (imaging calibration)
 </pre>
+There are no mms versions of the pinhole and sieve mask gerber files.
