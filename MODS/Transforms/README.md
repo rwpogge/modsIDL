@@ -50,16 +50,16 @@ for these monochromatic spots is a 3rd-order coordinate transformation with line
 polynomial components:
 <pre>
 Linear:
-   X_ccd,lin = CL11 + CL12 x + CL13 y
-   Y_ccd,lin = CL21 + CL22 x + CL23 y
+   X_ccd,lin = CL11 + CL12*x + CL13*y
+   Y_ccd,lin = CL21 + CL22*x + CL23*y
 
 Polynomial:
-   X_ccd,pol = CX00 + CX10 x   + CX20 x^2  + CY30 x^3
-                    + CX01 y   + CX11 xy   + CX21 x^2y
-                    + CX02 y^2 + CX12 xy^2 + CX03 y^3
-   Y_ccd,pol = CY00 + CY10 x   + CY20 x^2  + CY30 x^3
-                    + CY01 y   + CY11 xy   + CY21 x^2y
-                    + CY02 y^2 + CY12 xy^2 + CY03 y^3
+   X_ccd,pol = CX00 + CX10*x   + CX20*x^2   + CY30*x^3
+                    + CX01*y   + CX11*x*y   + CX21*x^2*y
+                    + CX02*y^2 + CX12*x*y^2 + CX03*y^3
+   Y_ccd,pol = CY00 + CY10*x   + CY20*x^2   + CY30*x^3
+                    + CY01*y   + CY11*x*y   + CY21*x^2*y
+                    + CY02*y^2 + CY12*x*y^2 + CY03*y^3
 </pre>
 for a total of 6 linear and 20 polynomial coefficients.
 
@@ -69,7 +69,7 @@ of linear and polynomial coordinate transformation coefficients.
 
 We then fit the ensemble of coefficients as polynomials in wavelength:
 <pre>
-   C(lambda) = C0 + C1*lambda + C2*lambda^2 + ... + Cn*lambda^2
+   C(lambda) = C0 + C1*lambda + C2*lambda^2 + ... + Cn*lambda^n
 </pre>
 where typically n=2 or n=3 is the most highest polynomial order that best fits the data.
 
