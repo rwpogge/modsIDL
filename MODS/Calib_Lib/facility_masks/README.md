@@ -1,6 +1,6 @@
 # MODS Facility Slit Masks
 
-Last Update: 2019 Jan 24 [housekeeping]
+Last Update: 2019 Jan 24
 
 This directory contains the Gerber files for cutting copies of the
 MODS facility slit masks.  For the facility long-slit masks we also
