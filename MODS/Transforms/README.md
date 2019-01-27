@@ -111,8 +111,8 @@ where spectra will land on the CCD for a given slit mask position.
 The application to MOS reduction is clear. While we did OK with more or less open-ended schemes to perform MOS mapping
 or reductions, they lacked robustness.  More sophisticated algorithms (e.g., Carnegie COSMOS) attempt to improve this 
 by doing forward optical modeling, but their internal models all assumed the optics are on-axis and therefore
-optical distortions are radially symmetric.  MODS uses off-axis optics, so we have non axially-symmetric distortions, m
-eaning the models have higher order asymmetric stretches (we cannot quantify the polynomials only in terms of 
+optical distortions are radially symmetric.  MODS uses off-axis optics, so we have non axially-symmetric distortions, 
+meaning the models have higher order asymmetric stretches (we cannot quantify the polynomials only in terms of 
 even powers of x and y, but must include odd powers and xy cross terms). The xidl package that we were
 evaluating at the time was much less sophisticated about its approach (with the penalty that it performed much worse
 unmodified), but its simplicity allowed us greater latitude to break into the code and add a modeling approach based 
