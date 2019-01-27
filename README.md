@@ -2,6 +2,8 @@
 
 IDL Data Reduction Pipeline for the Multi-Object Double Spectrographs at the Large Binocular Telescope Observatory
 
+<B>This is work in progress, not yet ready for release or download!!!</B>
+
 ## Overview
 
 modsIDL is a suite of programs built on Jason Prochaska's XIDL package for the reduction of MODS long-slit and multi-slit spectroscopy. Long-slit spectra are considered to be a subset of multi-slit spectra. Both grating and prism mode spectra can be reduced using modsIDL, but for the latter please contact us directly for advice, as prism mode is not as widely used and those parts of the pipeline are still in an advanced stage of development.
