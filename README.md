@@ -51,7 +51,7 @@ If you used modsIDL in your research work, we ask that you follow emerging
 [software citation principles](https://doi.org/10.7717/peerj-cs.86) being adopted by the astronomical community
 to ensure the proper citation of software in scientific publications. 
 
-The modsIDL pipeline was developed independently of the MODS instrument project as part of NSF Grant AST-1108693 which supported the Chemical Abundances of Spirals (CHAOS) project (PIs: Evan Skillman, UM, and Rick Pogge, OSU). It grew out of the need of the CHAOS project for an automated multi-object reduction and analysis pipeline for MODS data, and was intended from the start to be made available to the rest of the LBTO community as one of the "deliverables" of this NSF project. The modsIDL development project was led by Dr. Kevin Croxall, an OSU postdoc from 2012 until 2015.
+The modsIDL pipeline was developed independently of the MODS instrument project as part of NSF Grant AST-1108693 which supported the Chemical Abundances of Spirals (CHAOS) project (PIs: Evan Skillman, UM, and Rick Pogge, OSU). It grew out of the need of the CHAOS project for an automated multi-object reduction and analysis pipeline for MODS data, and was intended from the start to be made available to the rest of the LBTO community as one of the "deliverables" of this NSF project. The modsIDL development project was led by Dr. Kevin Croxall, an OSU postdoc from 2012 until 2016.
 
 If you publish MODS data reduced with the modsIDL pipeline, we ask that you add this line to the acknowledgments section of your paper:
 
