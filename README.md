@@ -59,7 +59,9 @@ If you publish MODS data reduced with the modsIDL pipeline, we ask that you add 
     funds provided by NSF Grant AST-1108693 and a generous gift from OSU Astronomy alumnus David G.
     Price through the Price Fellowship in Astronomical Instrumentation. 
 
-A software DOI registered with zenodo.org will be forthcoming.
+A software DOI has been registered with zenodo.org:
+
+ > [![DOI](https://zenodo.org/badge/142055392.svg)](https://zenodo.org/badge/latestdoi/142055392)
 
 modsIDL was developed for reducing data obtained with the MODS1 and MODS2 instruments at the Large Binocular Telescope
 Observatory.  The MODS were built with with major support provided by grants from the U.S. National Science Foundation's
