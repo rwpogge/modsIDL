@@ -47,13 +47,24 @@ We expect that users have a basic working knowledge of IDL at the level of knowi
 
 ## Acknowledging modsIDL 
 
+modsIDL was developed for reducing data obtained with the MODS1 and MODS2 instruments at the Large Binocular Telescope
+Observatory.  The MODS were built with with major support provided by grants from the U.S. National Science Foundation's
+Division of Astronomical Sciences  Advanced Technologies and Instrumentation (AST-9987045), the NSF/NOAO TSIP Program,
+and matching funds provided by the Ohio State University Office of Research and the Ohio Board of Regents. Additional 
+support was provided by NSF Grant AST-1108693.
+
 If you used modsIDL in your research work, we ask that you follow emerging
 [software citation principles](https://doi.org/10.7717/peerj-cs.86) being adopted by the astronomical community
 to ensure the proper citation of software in scientific publications. 
 
-The modsIDL pipeline was developed independently of the MODS instrument project as part of NSF Grant AST-1108693 which supported the Chemical Abundances of Spirals (CHAOS) project (PIs: Evan Skillman, UM, and Rick Pogge, OSU). It grew out of the need of the CHAOS project for an automated multi-object reduction and analysis pipeline for MODS data, and was intended from the start to be made available to the rest of the LBTO community as one of the "deliverables" of this NSF project. The modsIDL development project was led by Dr. Kevin Croxall, an OSU postdoc from 2012 until 2016.
+The modsIDL pipeline was developed independently of the MODS instrument project as part of NSF Grant AST-1108693 which
+supported the Chemical Abundances of Spirals (CHAOS) project (PIs: Evan Skillman, UM, and Rick Pogge, OSU). It grew out of the
+need of the CHAOS project for an automated multi-object reduction and analysis pipeline for MODS data, and was intended from
+the start to be made available to the rest of the LBTO community as one of the "deliverables" of this NSF project. The modsIDL
+development project was led by Dr. Kevin Croxall, an OSU postdoc from 2012 until 2016.
 
-If you publish MODS data reduced with the modsIDL pipeline, we ask that you add this line to the acknowledgments section of your paper:
+If you publish MODS data reduced with the modsIDL pipeline, we ask that you add this line to the acknowledgments section of
+your paper:
 
     This paper made use of the modsIDL spectral data reduction reduction pipeline developed in part with 
     funds provided by NSF Grant AST-1108693 and a generous gift from OSU Astronomy alumnus David G.
@@ -62,12 +73,6 @@ If you publish MODS data reduced with the modsIDL pipeline, we ask that you add 
 A software DOI has been registered with zenodo.org:
 
  > [![DOI](https://zenodo.org/badge/167826611.svg)](https://zenodo.org/badge/latestdoi/167826611)
-
-modsIDL was developed for reducing data obtained with the MODS1 and MODS2 instruments at the Large Binocular Telescope
-Observatory.  The MODS were built with with major support provided by grants from the U.S. National Science Foundation's
-Division of Astronomical Sciences  Advanced Technologies and Instrumentation (AST-9987045), the NSF/NOAO TSIP Program,
-and matching funds provided by the Ohio State University Office of Research and the Ohio Board of Regents. Additional 
-support was provided by NSF Grant AST-1108693.
 
 We and our funding agencies thank you for properly acknowledging their support in your papers. 
 
@@ -83,4 +88,4 @@ Prof. Richard Pogge (pogge.1@osu.edu) will address any bugs or questions as time
 
 ## Revision History
 
-### Current Version: v1.0.1 - 2019 Feb 1 - First binocular release
+### Current Version: v1.0.1 - 2019 Feb 10 - First binocular release
