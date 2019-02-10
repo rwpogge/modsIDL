@@ -61,7 +61,7 @@ If you publish MODS data reduced with the modsIDL pipeline, we ask that you add 
 
 A software DOI has been registered with zenodo.org:
 
- > [![DOI](https://zenodo.org/badge/142055392.svg)](https://zenodo.org/badge/latestdoi/142055392)
+ > [![DOI](https://zenodo.org/badge/167826611.svg)](https://zenodo.org/badge/latestdoi/167826611)
 
 modsIDL was developed for reducing data obtained with the MODS1 and MODS2 instruments at the Large Binocular Telescope
 Observatory.  The MODS were built with with major support provided by grants from the U.S. National Science Foundation's
