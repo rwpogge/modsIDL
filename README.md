@@ -2,8 +2,6 @@
 
 IDL Data Reduction Pipeline for the Multi-Object Double Spectrographs at the Large Binocular Telescope Observatory
 
-<B>This is work in progress, not yet ready for release or download!!!</B>
-
 ## Overview
 
 modsIDL is a suite of programs built on Jason Prochaska's XIDL package for the reduction of MODS long-slit and multi-slit 
@@ -106,4 +104,4 @@ Prof. Richard Pogge (pogge.1@osu.edu) will address any bugs or questions as time
 
 ## Revision History
 
-### Current Version: v1.0.1 - 2019 Feb 10 - First binocular release
+### Current Version: v1.0 - 2019 Feb 20 - First binocular release
