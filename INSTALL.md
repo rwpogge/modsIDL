@@ -85,7 +85,7 @@ and replace the contents of the MODS folder with the new code:
 <pre>
    % tar xvzpf /path/to/tarball/modsIDL.justMODS.v1.0.tgz
 </pre>
-and remember to say "yes" if it asks to overwrite any existing files.
+and remember to say "yes" if asked to overwrite any existing files.
 
 ## Runtime Environment
 	
