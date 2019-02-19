@@ -19,7 +19,7 @@ have found works best for most Linux distributions and Mac OS/X computers. Curre
 however, the modsIDL code is only compatible with Python 2.7 (a Python 3 version
 will be hopefully released later in 2019):
 
- > [Anaconda Python Distribution](https://www.anaconda.com/).
+ > [Anaconda Python](https://www.anaconda.com/).
 
 The modsIDL programs are incorporated into the XIDL software developed by
 Jason X. Prochaska and Joe Hennawi and others:
@@ -39,7 +39,7 @@ may not work with the current pipeline. For users who wish to employ this
 option, the MODS files are located in the appropriate directory under the 
 Longslit branch of XIDL.
 
-## Unpacking 
+## Full Installation (xidl+modsIDL)
 
 Unpack the tarball (e.g., modsIDL_vX.Y.tgz) in the usual way
 
@@ -58,13 +58,40 @@ The modsIDL directory has five (5) subdirectories:
    Docs/      -  copy of this manual (PDF) and any supplementary documentation
 </pre>
 
-## Installation
+## Update Installation
+
+If you already have a working Linux or OSX version of the modsIDL pipeline from before, you can update to the
+latest version on this repository by downloading the new code specific to MODS instead of having to re-install the
+entire xidl snapshot (~290k vs ~250M for the whole thing).
+
+Download the tar file in a safe place, say
+<pre>    
+   /path/to/tarball/modsIDL.justMODS.v1.0.tgz
+</pre>
+Then make a backup of your old version
+<pre>
+   % cd <wherever>/xidl/Spec/Longslit/pro/LBT/
+</pre>
+and make sure that when you type ls you see the MODS folder like this:
+<pre>
+   % ls
+   LUCIFER/ MODS/
+</pre>
+Then make a copy the old MODS folder as a backup in case you need to roll back
+</pre>
+   % tar cvzf oldMODS.tgz MODS
+</pre>
+and replace the contents of the MODS folder with the new code:
+<pre>
+   % tar xvzpf /path/to/tarball/modsIDL.justMODS.v1.0.tgz
+</pre>
+and remember to say "yes" if it asks to overwrite any existing files.
+
+## Runtime Environment
 	
-To install the modsIDL package, the modsIDL directory must be in your IDL
-path.  In general, most IDL codes are kept together in a top level directory
-such as ~/myidl.  All code is then placed under this directory.  The user 
-will also need to define the necessary environment variables and update their
-IDL_PATH as necessary.  The following is recommended to be added to your .cshrc 
+To run the modsIDL package, the modsIDL directory must be in your IDL path.  In general, most IDL codes are kept
+together in a top level directory such as ~/myidl.  All code is then placed under this directory.  You will also need to
+define the necessary environment variables and update your IDL_PATH.  The following is recommended to be added to your .cshrc 
 file:
 <pre>
    if ( -d ~/myidl/modsIDL ) then
