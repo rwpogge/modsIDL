@@ -58,7 +58,7 @@ The modsIDL directory has five (5) subdirectories:
    Docs/      -  copy of this manual (PDF) and any supplementary documentation
 </pre>
 
-## Update Installation
+## "MODS-only" Update
 
 If you already have a working Linux or OSX version of the modsIDL pipeline from before, you can update to the
 latest version on this repository by downloading the new code specific to MODS instead of having to re-install the
