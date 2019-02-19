@@ -14,7 +14,10 @@ The ultimate output of modsIDL is a Multi-Extension FITS format file containing 
 
 ## User's Manual
 
-Please download and read the user's manual on this repository for instructions on how to use and install the modsIDL package. This manual describes essential details on how the programs work to take you from raw MODS CCD images to wavelength and flux calibrated sky-subtracted 1D spectra. and the 2D reduction steps required. Be sure to read it carefully before using these programs to process MODS raw images. 
+Please download and read the [modsIDL manual](modsIDL.pdf) on this repository for instructions on how to use and install
+the modsIDL package. This manual describes essential details on how the programs work to take you from raw MODS CCD images
+to wavelength and flux calibrated sky-subtracted 1D spectra. and the 2D reduction steps required. Be sure to read it 
+carefully before using these programs to process MODS raw images. 
 
 ## Installation
 
