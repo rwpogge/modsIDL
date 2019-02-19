@@ -74,8 +74,8 @@ A software DOI has been registered with zenodo.org:
 
  > [![DOI](https://zenodo.org/badge/167826611.svg)](https://zenodo.org/badge/latestdoi/167826611)
 
-This should be cited in the bibliography of your paper.  The link should provide you with information on the citatin, including
-template BibTeX entries to use.
+This should be cited in the bibliography of your paper.  The link should provide you with information on the citation, 
+including template BibTeX entries to use.
 
 We and our funding agencies thank you for properly acknowledging their support in your papers. 
 
