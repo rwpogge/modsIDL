@@ -36,7 +36,9 @@ See [INSTALL.md](INSTALL.md) for installation instructions.
  * Computer should have at least a 3GHz Processor and 8Gb of RAM. More cores and more RAM is always better. 
  * IDL v8.1 or later (requires a license) installed. 
  * [modsCCDRed](https://github.com/rwpogge/modsCCDRed) Basic 2D reduction programs (python) 
- * Python 2.7, preferrably the free Anaconda distribution from Continuum Analytics. You will at least need numpy and astropy which come as part of Anaconda. It will not work with Python 3 yet. We cannot guarantee proper operation if you do not use Anaconda. 
+ * Python 2.7, preferrably the free [Anaconda distribution](http://www.anaconda.com). You will at least need 
+ numpy and astropy which come as part of Anaconda. It will not work with Python 3 yet. We cannot guarantee proper 
+ function if you do not use Anaconda. 
 
 ## Example Data
 
