@@ -6,16 +6,24 @@ IDL Data Reduction Pipeline for the Multi-Object Double Spectrographs at the Lar
 
 ## Overview
 
-modsIDL is a suite of programs built on Jason Prochaska's XIDL package for the reduction of MODS long-slit and multi-slit spectroscopy. Long-slit spectra are considered to be a subset of multi-slit spectra. Both grating and prism mode spectra can be reduced using modsIDL, but for the latter please contact us directly for advice, as prism mode is not as widely used and those parts of the pipeline are still in an advanced stage of development.
+modsIDL is a suite of programs built on Jason Prochaska's XIDL package for the reduction of MODS long-slit and multi-slit 
+spectroscopy. Long-slit spectra are considered to be a subset of multi-slit spectra. Both grating and prism mode spectra can 
+be reduced using modsIDL, but for the latter please contact us directly for advice, as prism mode is not as widely used and 
+those parts of the pipeline are still in an advanced stage of development.
 
-Sky subtraction, critical for faint-object spectroscopy, is accomplished using the 2D B-Spline algorithm developed by Dan Kelson [2003, PASP, 115, 688](http://adsabs.harvard.edu/abs/2003PASP..115..688K) . The modsIDL pipeline maintains the original detector pixel grid throughout the steps leading up to 1D science spectrum extraction without geometric rectification. This allows us to robustly estimate and propagate errors throughout the reduction process, resulting in internally-consistent and robust 2D and 1D error arrays for each science target spectrum.
+Sky subtraction, critical for faint-object spectroscopy, is accomplished using the 2D B-Spline algorithm developed by Dan 
+Kelson [2003, PASP, 115, 688](http://adsabs.harvard.edu/abs/2003PASP..115..688K) . The modsIDL pipeline maintains the original
+detector pixel grid throughout the steps leading up to 1D science spectrum extraction without geometric rectification. This
+allows us to robustly estimate and propagate errors throughout the reduction process, resulting in internally-consistent and 
+robust 2D and 1D error arrays for each science target spectrum.
 
-The ultimate output of modsIDL is a Multi-Extension FITS format file containing row-stacked 1D wavelength- and flux-calibrated sky-subtracted spectra with associated error arrays, sky spectra, and other related data. 
+The ultimate output of modsIDL is a Multi-Extension FITS format file containing row-stacked 1D wavelength- and 
+flux-calibrated sky-subtracted spectra with associated error arrays, sky spectra, and other related data. 
 
-## User's Manual
+## Manual
 
-Please download and read the [modsIDL manual](modsIDL.pdf) on this repository for instructions on how to use and install
-the modsIDL package. This manual describes essential details on how the programs work to take you from raw MODS CCD images
+Please download and read the [modsIDL manual](modsIDL.pdf) on this repository for instructions on how to use the modsIDL 
+pipeline. This manual describes essential details on how the programs work to take you from raw MODS CCD images
 to wavelength and flux calibrated sky-subtracted 1D spectra. and the 2D reduction steps required. Be sure to read it 
 carefully before using these programs to process MODS raw images. 
 
@@ -44,9 +52,13 @@ large (few Gb) and you need to know what you need before committing.
 
 ## Terms & Conditions of Support
 
-The modsIDL package is provided as-is, with no warranty or offer of individual user support. We are willing to fix bugs, answer basic questions, and provide updates, but individual instruction or hand-holding is beyond our limited human resources to provide.
+The modsIDL package is provided as-is, with no warranty or offer of individual user support. We are willing to fix bugs,
+answer basic questions, and provide updates, but individual instruction or hand-holding is beyond our limited human 
+resources to provide.
 
-We expect that users have a basic working knowledge of IDL at the level of knowing the basic command syntax and workflow of IDL pre-written procedures (a knowledge of IDL programming is helpful but not required for basic use). Similarly, we expect that users are well-acquainted with the basic principles of CCD spectroscopy in general and MODS spectra in particular. 
+We expect that users have a basic working knowledge of IDL at the level of knowing the basic command syntax and workflow of
+IDL pre-written procedures (a knowledge of IDL programming is helpful but not required for basic use). Similarly, we expect
+that users are well-acquainted with the basic principles of CCD spectroscopy in general and MODS spectra in particular. 
 
 ## Acknowledging modsIDL 
 
