@@ -19,6 +19,4 @@ See the MODS Manual for details of the facility long-slit specifications.
    ls5x60x2.4.mms  --  2.4-arcsec segmented long-slit mask
    ls60x5.mms      --  5-arcsec x 60-arcsec spectrophotometric wide slit mask
    sudokuMask.mms  --  9x9 Sudoko pinhole mask (MOS x,y,lambda Calibration)
-   pinholeSlit.mms --  Linear pinhole slit
-   sieveMask.mms   --  Pinhole Sieve Mask (imaging calibration)
 </pre>
