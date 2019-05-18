@@ -7,7 +7,7 @@ chronological order (recent changes push down old).  Note the
 script(s), briefly describe the change, and remember to date and
 "sign" the changes.
 
-## 2019 May 18: Version 1.0.1 - Incremental Patch v1.0.1 [rwp/osu]
+## 2019 May 18: Version 1.0.1 - Incremental Patch [rwp/osu]
 
 Fixed bugs in the mods_xyz_singlechan.pro scripts (where xyz={extract,skyfit2d,fluxstand}) that
 are related to long-slit masks (uses LS instead of ls for the index),
