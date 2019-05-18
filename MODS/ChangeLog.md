@@ -7,6 +7,23 @@ chronological order (recent changes push down old).  Note the
 script(s), briefly describe the change, and remember to date and
 "sign" the changes.
 
+## 2019 May 18: Version 1.0.1 - Incremental Patch v1.0.1 [rwp/osu]
+
+Fixed bugs in the mods_xyz_singlechan.pro scripts (where xyz={extract,skyfit2d,fluxstand}) that
+are related to long-slit masks (uses LS instead of ls for the index),
+and made centersum=100 the default summation window in pixels for finding extractions.  This avoids the problem
+that centersum was an implicit required keyword, now setup as an optional keyword with a sensible default,
+bringing its operation better into alignment with the description in the manual.
+
+A few minor edits to other scripts to make a fault recovery printout more explicit in mods_reduce.pro, and
+to fix some potentially confusing typos, and remove nuisance errors due to a gratuitous calls to idlutils_version()
+et al. for logging.
+
+Fixed problems with the ls5x60x2.4.mms file for the 2.4-arcsec long-slit mask.  Problem was wrong units on the
+X/YMM keywords (were in arcseconds instead of mm), and missing placeholders for ALPHA and DELTA.  This led to errors
+in mods_slitmask.pro and other routines that parsed this file.
+
+
 ## 2019 Jan 26: Version 1.0 - First Binocular Release [rwp/osu]
 
 First release with a verified set of Sudoku transforms derived for
