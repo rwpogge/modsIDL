@@ -38,7 +38,7 @@
 ; PROCEDURES CALLED:
 ;   fileandpath()
 ;   headfits()
-;   idlutils_version()
+;   idlutils_version() - removed 2019 May 18 [rwp]
 ;   splog
 ;   sxpar()
 ;   yanny_write
@@ -712,8 +712,7 @@ pro mods_plan, fileexpr, indir, planfile=planfile
          hdr = [hdr, "minslit 20  # Minimum slit width"]
 ;         hdr = [hdr, "slitthresh 0.02 # Sets threshold for slit identification. 0.1 works best for Longslit spectra"]
          hdr = [hdr, "reduxthresh 0.01 # Sets the fraction of the brightest objects on each slit that is reduced"]
-         hdr = [hdr, "idlutilsVersion '" + idlutils_version() $
-          + "'  # Version of idlutils when building plan file"]
+         ; hdr = [hdr, "idlutilsVersion '" + idlutils_version() + "'  # Version of idlutils when building plan file"]
          hdr = [hdr, "LongslitVersion '" + longslit_version() $
           + "'  # Version of Longslit when building plan file"]
 

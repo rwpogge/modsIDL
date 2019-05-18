@@ -50,7 +50,7 @@
 ; EXAMPLE:
 ;   mods_skyfit2d,'Science/std-mods1r.BD33.20120430.fits.gz',$
 ;                 'Science/std-mods1b.BD33.20120430.fits.gz',$
-;                 outname='BD33',aperture=[1],$
+;                 outname='BD33',apertures=[1],$
 ;                 red_slits='slits-mods1r.Feige34.20120430.fits',$
 ;                 blue_slits='slits-mods1b.Feige34.20120430.fits',/clobber
 ;

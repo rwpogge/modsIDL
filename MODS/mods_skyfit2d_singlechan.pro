@@ -1,5 +1,7 @@
 ;Nov 6 2014 KVC OSU
 ;2019 Jan 22 - patch to mods_skyfit2d_singlechan [rwp/osu]
+;2019 May 17 - set centersum=100 default in mods_skyfit2d_singlechan [rwp/osu]
+;
 ;=========================================================================
 ;=========================================================================
 pro readnum,value
@@ -205,6 +207,7 @@ if not keyword_set(verbose) then !Quiet=1
 if n_elements(trim_t) EQ 0 then trim_t = 0
 if n_elements(trim_b) EQ 0 then trim_b = 0
 if n_elements(edge_mask) EQ 0 then edge_mask = 4
+if n_elements(centersum) EQ 0 then centersum = 100
 
 if keyword_set(linemaskfile) then begin	;masking strong emission lines
 	if strtrim(string(linemaskfile),2) EQ '1' then linemask_list = GETENV('XIDL_DIR') + $
@@ -822,5 +825,8 @@ endfor
 
 	IF skyslit NE 0 then mwrfits,fullfit,out
         IF skyslit NE 0 then mwrfits,fullfit2,out
+
+	print,'DONE: mods_skyfit2d_singlchan completed'
+
 ;print,"MODS_EXTRACT COMMAND: mods_extract_singlechan,'",out,"'"
 end

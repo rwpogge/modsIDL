@@ -16,7 +16,7 @@
 ;   outfile    - Output file name with slit mask positions
 ;
 ; OPTIONAL INPUTS:
-;   mislit     - Minimum slit width. Default is to return all slits.
+;   minslit    - Minimum slit width. Default is to return all slits.
 ;   biasfile   - Bias file to apply to raw images
 ;   y1         - Starting row number for smashing image to initially
 ;                identify slits; default to 0.40*NY

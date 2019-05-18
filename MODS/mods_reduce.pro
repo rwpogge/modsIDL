@@ -217,13 +217,13 @@ if (NOT keyword_set(planfile)) then planfile = findfile('plan*.par')
        splog, filename = logfile
        splog, 'Log file ' + logfile + ' opened ' + systime()
    endif
-   splog, 'IDL version: ' + string(!version,format='(99(a," "))')
-   spawn, 'uname -a', uname
-   splog, 'UNAME: ' + uname[0]
-;   splog, 'idlutils version ' + idlutils_version()
-   spawn, '$IDLUTILS_DIR/bin/./idlutils_version', idlutils_ver
-   splog, 'idlutils version ' + idlutils_ver
-   splog, 'Longslit version ' + longslit_version()
+   ;splog, 'IDL version: ' + string(!version,format='(99(a," "))')
+   ;spawn, 'uname -a', uname
+   ;splog, 'UNAME: ' + uname[0]
+   ;splog, 'idlutils version ' + idlutils_version()
+   ;spawn, '$IDLUTILS_DIR/bin/./idlutils_version', idlutils_ver
+   ;splog, 'idlutils version ' + idlutils_ver
+   ;splog, 'Longslit version ' + longslit_version()
    plotfile = 0
    if (keyword_set(plotfile)) then begin
        thisfile = findfile(plotfile + '*', count = ct)
@@ -579,14 +579,24 @@ if (NOT keyword_set(planfile)) then planfile = findfile('plan*.par')
 			; if no match found begin manual selection
                        if select_wavefile[0] eq (-1) then begin
                                 splog,'No matching WAVEFILE found.'
-                                print,"Before .continue plese enter: wavefile = '<desired file>'"
+                                print,"Corrective Action:"
+				print," type"
+				print,"   wavefile = '<wave file>'"
+				print," where <wave file> is one of these choices:"
                                 spawn,'ls wave-*fits'
+				print," then type"
+				print,"  .continue"
+				print," to continue running mods_reduce"
                                 stop
                        endif
 		       if n_elements(wavefile) gt 1 then begin
 				splog,'More than one plausible WAVEFILE FOUND. Please select one.'
 				splog,wavefile
-				print,"Before .continue plese enter: wavefile = '<desired file>'"
+				print,"then type"
+				print,"  wavefile = '<desired file>'"
+				print,"then type"
+				print,"  .continue"
+				print," to continue running mods_reduce"
 				stop
 		       endif
                        splog, 'Choosing WAVEFILE '+wavefile

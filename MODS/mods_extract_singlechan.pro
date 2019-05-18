@@ -245,6 +245,8 @@ common exclude1, blank_low, blank_hi, platescale
 blank_low = [0]
 blank_hi = [0]
 
+if n_elements(centersum) EQ 0 then centersum = 100
+
 ; Science image
 verify = file_test(scifile)
 if verify then sciimg = mrdfits(scifile,0,hdr,/silent) $
@@ -269,7 +271,7 @@ else begin
 endelse
 mask = strcompress(sxpar(hdr[*,0], 'MASKNAME'), /rem)
 if mask eq 'LS60x5' then apertures=[1]
-if strmid(mask,0,2) eq 'LS' then mask = 'LS'
+if strmid(mask,0,2) eq 'LS' then mask = 'ls'
 
 if n_elements(centerLine) EQ '' then begin
         if (channel_code eq 'm1b') or (channel_code eq 'm2b') then low_cent = floor(4850*z)
