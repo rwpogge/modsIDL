@@ -7,6 +7,11 @@ chronological order (recent changes push down old).  Note the
 script(s), briefly describe the change, and remember to date and
 "sign" the changes.
 
+## 2019 Aug 06: Version 1.0.2 - Incremental Patch [rwp/osu]
+
+Accidentally omitted programs mods_extract1d.pro and mods_extract1d_singlechan.pro were restored, mostly for
+backwards compatibility.
+
 ## 2019 May 18: Version 1.0.1 - Incremental Patch [rwp/osu]
 
 Fixed bugs in the mods_xyz_singlechan.pro scripts (where xyz={extract,skyfit2d,fluxstand}) that
