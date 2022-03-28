@@ -81,7 +81,7 @@ development project was led by Dr. Kevin Croxall, an OSU postdoc from 2012 until
 If you publish MODS data reduced with the modsIDL pipeline, we ask that you add this line to the acknowledgments section of
 your paper:
 
-    This paper made use of the modsIDL spectral data reduction reduction pipeline developed in part with 
+    This paper made use of the modsIDL spectral data reduction pipeline developed in part with 
     funds provided by NSF Grant AST-1108693 and a generous gift from OSU Astronomy alumnus David G.
     Price through the Price Fellowship in Astronomical Instrumentation. 
 
